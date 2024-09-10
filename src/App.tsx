@@ -1,12 +1,13 @@
 import './App.css'
-import SignIn from './pages/SigIn'
+import Sidebar from './components/common/Sidebar'
+import  Home from './pages/Home'
+import SignIn from './pages/Login'
 
 function App() {
   return (
-    <h1> 
-      <SignIn/>
-    </h1>
-  )
+    <>
+    </>
+  ) 
 }
 
 export default App
